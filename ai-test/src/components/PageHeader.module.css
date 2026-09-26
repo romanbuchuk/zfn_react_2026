@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.55rem;
+  color: var(--color-accent);
+  font-size: 0.73rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  letter-spacing: -0.055em;
+  line-height: 1.15;
+}
+
+.description {
+  margin: 0.65rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 540px) {
+  .header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
