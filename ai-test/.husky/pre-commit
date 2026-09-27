@@ -1,1 +1,0 @@
-cd ai-test && npx lint-staged
